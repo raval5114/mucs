@@ -8,7 +8,7 @@ final class HomescreenInitial extends HomescreenState {}
 final class HomeScreenLoadingState extends HomescreenState {}
 
 final class HomeScreenSucessState extends HomescreenState {
-  final List<Map<String, dynamic>> data;
+  final Map<String, dynamic> data;
 
   HomeScreenSucessState({required this.data});
 }

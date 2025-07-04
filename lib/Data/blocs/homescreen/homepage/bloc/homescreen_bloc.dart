@@ -12,7 +12,7 @@ class HomescreenBloc extends Bloc<HomescreenEvent, HomescreenState> {
         emit(HomeScreenLoadingState());
         Future.delayed(Duration(seconds: 2));
         Homepagerepo _repo = Homepagerepo();
-        List<Map<String, dynamic>> data = await _repo.getData();
+        Map<String, dynamic> data = await _repo.getData();
         emit(HomeScreenSucessState(data: data));
       } catch (e) {
         print('Error: $e');
