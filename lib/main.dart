@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:mucs/Data/blocs/auth/bloc/sigin_bloc.dart';
 import 'package:mucs/Data/blocs/homescreen/homepage/bloc/homescreen_bloc.dart';
-import 'package:mucs/Views/auth/Signin/siginup.dart';
 import 'package:mucs/Views/home_screen/homescreen.dart';
 
 void main() {
@@ -26,7 +25,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: SigninScreen(),
+      home: HomeScreen(),
     );
   }
 }
