@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "539488694526",
+    "project_id": "mu-cs-2dd97",
+    "storage_bucket": "mu-cs-2dd97.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:539488694526:android:0a0ea8f5773647a4be35af",
+        "android_client_info": {
+          "package_name": "com.example.mucs"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI5SmfJRDT_Ftwyokid5fyDetUzuLK4f0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
